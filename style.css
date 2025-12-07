@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vibes&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+
+    position: relative;
+}
+
+body{
+    height: 100vh;
+    max-width: 100svw;
+}
+
+header{
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 10px 50px;
+    padding: 10px;
+}
+
+.divider {
+  width: 1px;        
+  height: 40px;      
+  background: #ccc;  
+}
+
+.icon{
+    margin: 0px 30px;
+    display: flex;
+    color:  rgb(30, 41, 57);
+}
+
+i{
+    margin: 10px ;
+    font-size: 25px;
+}
+
+.b{
+    background-color: white;
+    color: rgb(17, 16, 16);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.b:hover{
+    background-color: #0A1F44;
+    color: white;
+}
+
+
+.container{
+    background-image: url(business-bg-BDvfmGRV.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding: 170px 0 0 0;
+    
+}
+
+.contant{
+    padding: 0 20px 15px 25px;
+    position: relative;
+    top: -40px;
+}
+
+.p{
+   font-size: 29px;
+  font-weight: 300;
+  margin-bottom: 10px; 
+}
+
+.h{
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.btn{
+  background: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  border: 0px;
+  font-size: 16px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.cards{
+     display: flex;
+    background: #f0f0f5;
+     margin-top: 70px;
+   
+}
+
+.card{
+    text-align: center;
+    padding: 50px 25px;
+     background: #f7f8fc;
+    position: relative;
+}
+
+.card .pho{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.card:nth-child(even){
+    background: rgba(200, 205, 220, 0.25);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #1d1d1d;
+}
+
+.card p {
+    color: #333;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.card:hover {
+    background: #eaf0ff;
+    border-bottom: 3px solid black;
+}
+
+.container2{
+    padding: 70px 0;
+}
+
+.about{
+    width: 90%;
+    margin: auto;
+}
+
+.about-contant{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-image img{
+    width: 500px;
+    border-radius: 8px;
+}
+
+.about-text{
+    padding: 140px 0 100px 0;
+}
+
+
+.about-text h2{
+    font-size: 35px;
+    text-align: center
+}
+
+.underline{
+    width: 40px;
+    height: 4px;
+    background: #c0c0c0;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.about-text p{
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.text1{
+    font-size: 18px;
+}
+
+.text2{
+    margin-top: 15px;
+}
+
+.x{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.y{
+    padding: 15px 15px  0px 15px;
+    text-align: center;
+    margin: 10px;
+    border-left: 2px dashed #e0e0e0;
+}
+
+.y:first-child{
+    border-left: none;
+}
+
+.secound-part{
+    background-image: url(blue-bg-xVWGj1H-.webp);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 40vh;
+    padding: 120px 0 0 0;
+    text-align: center;
+}
+
+.secound-text{
+  color: white;
+  font-size: 29px;
+  font-weight: 900;
+  margin-bottom: 15px; 
+}
+
+.services{
+    align-items: center;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.cards1{
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1{
+  display: flex;
+  background: white;
+  width: 400px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card1 img{
+  width: 150px;
+  height: 150px;  
+}
+
+.content1 {
+  padding: 15px 25px;
+}
+
+.content1 h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.content1 p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.content1 a {
+  color: #0a4dc4;
+  font-weight: bold;
+}
+
+.mail{
+    margin: 20px;
+}
+
+.mail-link{
+    margin: 20px;
+    margin-bottom: 5px;
+    color: #0a4dc4;
+}
+
+.line{
+  width: 270px;        
+  height: 1px;      
+  background: #100f0fb9; 
+  margin: 5px auto;
+}
+
+.Teams{
+    background-color:rgb(243, 244, 246);
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.team-img{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.team-icon{
+  width: 180px;
+  background: #b7bcc4;
+  border-radius: 300px 300px 0px 0px;
+  text-align: center;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.team-icon img{
+  width: 180px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 10px solid #b7bcc4;
+  background: white;
+}
+
+footer{
+    background-color: rgb(30, 41, 57);
+    color: white;
+    padding: 20px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.contant-us p{
+    padding-top: 8px;
+    
+}
+
+.social i{
+    font-size: 20px;
+    margin: 5px;
+    padding-top: 8px;
+}
+
+.social i:hover{
+    color: #ccc;
+}
+
+.history{
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.line1{
+    border-top: 1px solid #cccccc26;
+    margin-top: 40px;
+}
+@media (max-width: 768px) {
+
+   nav {
+    display: none;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .icon {
+    margin: 0 10px;
+  }
+
+  .h {
+    font-size: 45px;
+  }
+
+  .p {
+    font-size: 22px;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  .about-contant {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;  
+    text-align: center;
+    margin-top: 320px;
+    padding: 120px;
+    padding-right: 50px;
+    text-align: center;
+    width: 30%;
+  }
+
+  .about-image img {
+    width: 350px;
+    margin-left: 350px;
+  }
+
+  .about-text {
+    padding: 20px ;
+    margin-left: 350px;
+  }
+
+  .team-img {
+    flex-wrap: wrap;
+  }
+
+  .team-icon {
+    width: 183px;
+  }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding-top: 90px;
+        height: auto;
+        width: auto;
+    }
+
+    .h {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .p {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 9px 16px;
+        font-size: 13px;
+    }
+
+    .cards {
+        margin-top: 25px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        padding: 25px 12px;
+        width: 100%;
+    }
+    .about-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+    .about-contant{
+     display: flex;
+     flex-direction: column;
+     
+    }
+    .about-image img {
+        width: 300px;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+
+    .content1 {
+        padding: 10px 10px;
+        margin-right: 250px;
+    }
+
+    .card1 img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .secound-text {
+        font-size: 20px;
+    }
+
+    .team-icon {
+        width: 150px;
+    }
+
+    footer .total {
+        flex-direction: column;
+        text-align: center;
+        gap: 18px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .about-section img {
+        width: 230px;
+        margin: 0 auto;
+    }
+
+    .about-text h2 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+    }
+}
+
+
